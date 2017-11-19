@@ -46,13 +46,18 @@ input:focus:-ms-input-placeholder {
   font-weight: 400;
   opacity: 1.0;
 }
+html, body {
+  background-color: #373D45;
+	
+}
 
+/*
 html, body {
   background-color: #373D45;
   background:url("http://3lion-anime.com/assets/img/story/story00/story00_ph.jpg") top center /cover;
 	background-attachment: fixed;
 }
-
+*/
 .search-block {
   position: relative;
   width: 40%;
