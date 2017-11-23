@@ -47,7 +47,7 @@ input:focus:-ms-input-placeholder {
   opacity: 1.0;
 }
 html, body {
-  background-color: #111;
+  background-color: #272522;
 
 }
 
@@ -146,7 +146,7 @@ html, body {
   flex: 1;
   margin: 2px;
   padding: 10px 15px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 0px solid #222222;
   min-width: 160px;
 }
