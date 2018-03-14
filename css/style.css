@@ -47,7 +47,7 @@ input:focus:-ms-input-placeholder {
   opacity: 1.0;
 }
 html, body {
-  background-color: #272522;
+  background-color: #222522;
 
 }
 
@@ -136,7 +136,8 @@ html, body {
 .blocks {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -154,7 +155,8 @@ html, body {
   list-style: none;
 }
 .blocks .block .header {
-  color: #70b7bf;
+  color: #66ffff;
+  font-size: 16px;
 }
 .blocks .block a {
   text-decoration: none;
