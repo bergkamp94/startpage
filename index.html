@@ -1,163 +1,197 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>自律</title>
-
-
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Inconsolata'>
-  <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>cool</title>
 </head>
 
 <body>
-  <div class="container">
+    <div id="outer">
+        <div id="middle">
 
-  <div class="blocks">
-    <ul class="block">
-      <li class="header">/work</li>
-      <li><a style="color:#6666ff"; href="https://trello.com/b/LqsO2cvz/%E6%B2%BB%E7%99%82%E6%89%80">Trello</a></li>
-      <li><a style="color:#33ff33"; href="https://feedly.com/i/my">Feedly</a></li>
-      <li><a style="color:#ff33ff"; href="https://ma.mohw.gov.tw/maportal/Default.aspx">報備支援</a></li>
-      <li><a href="https://www.set.edu.tw/setnet/reg/login.asp">特教記錄撰寫</a></li>
-      <li><a style="color:#383838"; href="https://www.facebook.com/nuannuanco/publishing_tools/?section=DRAFTS&sort">fb/DRAFTS</a></li>
-      <li><a style="color:#383838"; href="https://www.facebook.com/nuannuanco/insights/?referrer=page_insights_tab_button">fb/page_insights</a></li>
-      <li><a style="color:#383838"; href="https://www.facebook.com/nuannuanco/settings/?tab=people_and_other_pages">fb/fans</a></li>
-      <li><a style="color:#383838"; href="https://www.loc.gov/collections/japanese-fine-prints-pre-1915/about-this-collection/">Lib'of Congress</a></li>
-      <li><a style="color:#383838"; href="http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1">The Getty</a></li>
-      
-    </ul>
-    <ul class="block">
-				<li class="header">/favorites</li>
-        <li><a style="color:#ff1a1a"; href="https://www.pinterest.com/">Pinterest</a></li>
-        <li><a href="https://cn.nytimes.com/zh-hant/">紐約時報</a></li>
-        <li><a style="color:#383838"; href="http://www.bbc.com/ukchina/trad">BBC</a></li>
-        <li><a href="https://1337x.to/">1337x.to</a></li>
-        <li><a style="color:#d580ff"; href="https://thepiratebay.org/">the pirate bay</a></li>
-        <li><a style="color:#383838"; href="https://thepiratebay-proxylist.org/">the pirate bay-proxy</a></li>
-        <li><a style="color:#1a8cff"; href="http://reddit.com/">reddit</a></li>
-        <li><a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S120">紅樓夢</a></li>
-		<li><a style="color:#ff6666"; href="https://www.youtube.com/">Youtube</a></li>
-        <li><a href="http://www.sumo.or.jp/ResultData/torikumi/">大相撲</a></li>
-		
-	</ul>
-    <ul class="block">
-        <li class="header">/query</li>
-        <li><a href="https://duckduckgo.com/">duckduckgo</a></li>
-        <li><a href="https://ma.mohw.gov.tw/masearch/SearchDOC-101-1.aspx">醫事查詢系統</a></li>
-        <li><a style="color:#1a75ff"; href="https://www.lib.ccu.edu.tw/">中正大學圖書館</a></li>
-        <li><a href="https://www.ncbi.nlm.nih.gov/pubmed">Pubmed</a></li>
-        <li><a href="https://scholar.google.com.tw/">Google Scholar</a></li>
-        <li><a href="http://sci-hub.tw/">sci-hub.cc</a></li>
-        <li><a href="http://b-ok.org/">bookzz.org</a></li>
-        <li><a href="https://www.vpngate.net/en/">vpngate</a></li>
-    </ul>
-	<ul class="block">
-				<li class="header">/hobbits</li>
-        <li><a style="color:#1a8cff"; href="http://reddit.com/">reddit</a></li>
-        <li><a style="color:#d580ff"; href="https://abema.tv/">Abemaテレビ</a></li>
-        <li><a style="color:#4dff4d"; href="https://open.spotify.com/browse">Spotify</a></li>
-        <li><a style="color:#ff66a3"; href="http://www.ishuhui.com/">鼠繪漫畫</a></li>
-        <li><a href="http://www22.eyny.com/index.php">伊莉討論區</a></li>
-        <li><a href="http://jac-animation-net.blogspot.tw/">JA</a></li>
-		<li><a href="https://anime1.me/">anime1.me</a></li>
-		<li><a href="https://ani.gamer.com.tw/animeList.php">動畫瘋</a></li>
-        <li><a href="http://www.360zhibo.com/">360 Football</a></li>
-        <li><a href="https://zh.wikipedia.org/wiki/Portal:%E8%AE%A3%E9%97%BB">People Die</a></li>
-			</ul>
+            <div id="themes">
+                <button class="button" type="button" onclick="cycleThemes()">cycle_themes</button> 
+            </div>
 
-    <ul class="block">
-				<li class="header">/tools</li>
-        <li><a style="color:#"; href="http://atomurl.net/myip/">my ip</a></li>
-        <li><a style="color:#"; href="https://www.w3schools.com/colors/colors_picker.asp">html color picker</a></li>
-        <li><a style="color:#"; href="http://facemood.grtimed.com/">顏文字</a></li>
-        <li><a style="color:#"; href="https://tw.piliapp.com/label/all/">工具邦</a></li>
-        <li><a href="https://ytmp3.cc/en11/">youtube-converter</a></li>
-	</ul>
+            <div class="terminal-screen" id="inner">
+                <!-- username with cursor -->
+                <div class="user">
+                    <a class="unix-user">ISC</a>
+                    <a class="unix-syntax1">@</a>
+                    <a class="PC-name">passeridae</a>
+                    <a class="unix-syntax2">&#126;</a>
+                    <!--  <a class="cursor">|</a> -->
+                    
+                </div>
 
-	<ul class="block">
-				<li class="header">/services</li>
-        <li><a style="color:#1aa3ff"; href="https://app.simplenote.com/">simplenote</a></li>
-        <li><a style="color:#f007Cc"; href="http://flickr.com/">flickr</a></li>
-        <li><a style="color:#ffa64d"; href="https://read.amazon.com/">kindle</a></li>
-        <li><a href="https://keep.google.com/">keep</a></li>
-        <li><a href="https://mail.google.com">gmail</a></li>
-				<li><a href="http://github.com/">github ( • ̀ω•́ )</a></li>
-	</ul>
+                <!-- links with sections -->
+                <div class="links-container">
+                    <div class="main">
+                        <ul class="hyperlinks">
+                            <li id="main-h">main</li>
+                            <li class="separators">-----work----</li>
+                            <li><a style="color:#6666ff"; href="https://trello.com/b/LqsO2cvz/%E6%B2%BB%E7%99%82%E6%89%80">Trello</a></li>
+                            <li><a style="color:#33ff33"; href="https://feedly.com/i/my">Feedly</a></li>
+                            <li><a style="color:#ff33ff"; href="https://ma.mohw.gov.tw/maportal/Default.aspx">報備支援</a></li>
+                            <li><a href="https://www.set.edu.tw/setnet/reg/login.asp">特教記錄撰寫</a></li>
+                            <li><a style="color:#383838"; href="https://www.loc.gov/collections/japanese-fine-prints-pre-1915/about-this-collection/">Lib'of Congress</a></li>
+                            <li><a style="color:#383838"; href="http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1">The Getty</a></li>
 
-	<ul class="block">
-        <li class="header">/購物</li>
-        <li><a href="https://www.amazon.co.jp/">amazon.jp</a></li>
-        <li><a href="https://www.amazon.com/?language=zh_TW">amazon</a></li>
-		<li><a href="https://kakaku.com/">価格.com</a></li>
-        <li><a href="https://www.rakuten.co.jp/">日樂天</a>/<a href="https://global.rakuten.com/zh-tw/">全球樂</a>/<a href="https://www.rakuten.com.tw/">台樂</a></li>
-        <li><a href="https://www.ruten.com.tw/">露拍</a>/<a href="https://tw.bid.yahoo.com/">Y拍</a></li>
-        <li><a href="https://auctions.yahoo.co.jp/">ヤフオク</a></li>
-        <li><a href="http://www.coolpc.com.tw/evaluate.php">原價屋</a>/<a href="https://www.coolpc.com.tw/m/">原價屋m</a></li>
+                            <li class="separators">---favorites--</li>
+                            <li><a style="color:#ff1a1a"; href="https://www.pinterest.com/">Pinterest</a></li>
+                            <li><a href="https://cn.nytimes.com/zh-hant/">紐約時報</a></li>
+                            <li><a style="color:#383838"; href="http://www.bbc.com/ukchina/trad">BBC</a></li>
+                            <li><a href="https://1337x.to/">1337x.to</a></li>
+                            <li><a style="color:#d580ff"; href="https://thepiratebay.org/">the pirate bay</a></li>
+                            <li><a style="color:#383838"; href="https://thepiratebay-proxylist.org/">the pirate bay-proxy</a></li>
+                            <li><a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S120">紅樓夢</a></li>
+                            <li><a href="http://www.sumo.or.jp/ResultData/torikumi/">大相撲</a></li>
+                        </ul>
+                    </div>
 
-	</ul>
+                    <div class="tech">
+                        <ul class="hyperlinks">
+                            <li id="tech-h">tech</li>
+                            <li class="separators">-----services----</li>
+                            <li><a style="color:#1aa3ff"; href="https://app.simplenote.com/">simplenote</a></li>
+                            <li><a style="color:#f007Cc"; href="http://flickr.com/">flickr</a></li>
+                            <li><a style="color:#ffa64d"; href="https://read.amazon.com/">kindle</a></li>
+                            <li><a href="https://keep.google.com/">keep</a></li>
+                            <li><a href="https://mail.google.com">gmail</a></li>
+				            <li><a href="http://github.com/">github ( • ̀ω•́ )</a></li>
+                            <li class="separators">-----tools----</li>
+                            <li><a style="color:#"; href="http://atomurl.net/myip/">my ip</a></li>
+                            <li><a style="color:#"; href="https://www.w3schools.com/colors/colors_picker.asp">html color picker</a></li>
+                            <li><a style="color:#"; href="http://facemood.grtimed.com/">顏文字</a></li>
+                            <li><a style="color:#"; href="https://tw.piliapp.com/label/all/">工具邦</a></li>
+                            <li><a href="https://ytmp3.cc/en11/">youtube-converter</a></li>
+                            <li><a href="https://www.vpngate.net/en/">vpngate</a></li>
+                            <li class="separators">-----query----</li>
+                            <li><a href="https://duckduckgo.com/">duckduckgo</a></li>
+                            <li><a href="https://ma.mohw.gov.tw/masearch/SearchDOC-101-1.aspx">醫事查詢系統</a></li>
+                            <li><a style="color:#1a75ff"; href="https://www.lib.ccu.edu.tw/">中正大學圖書館</a></li>
+                            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed">Pubmed</a></li>
+                            <li><a href="https://scholar.google.com.tw/">Google Scholar</a></li>
+                            <li><a href="http://sci-hub.tw/">sci-hub.cc</a></li>
+                            <li><a href="http://b-ok.org/">bookzz.org</a></li>
+                            
+                        </ul>
+                    </div>
 
-    <ul class="block">
-        <li class="header">/psy</li>
-        <li><a href="http://www.atcp.org.tw/">臨心全聯會</a></li>
-        <li><a href="http://taclip.org.tw/">台灣臨床心理學會</a></li>
-        <li><a href="https://www.nytimes.com/topic/subject/psychology-and-psychologists">NY Times Psy</a></li>
-        <li><a href="https://digest.bps.org.uk/">BPS Research Digest</a></li>
-        <li><a href="https://qz.com/popular/">qz.com</a></li>
-        <li><a href="http://www.spring.org.uk/">PsyBlog</a></li>
-    </ul>
+                    <div class="varsity">
+                        <ul class="hyperlinks">
+                            <li id="varsity-h">hobbies</li>
+                            <li class="separators">-----media----</li>
+                            <li><a style="color:#1a8cff"; href="http://reddit.com/">reddit</a></li>
+                            <li><a style="color:#ff1a1a"; href="https://www.netflix.com/browse">Netflix</a></li>
+                            <li><a style="color:#ff6666"; href="https://www.youtube.com/">Youtube</a></li>
+                            <li><a style="color:#d580ff"; href="https://abema.tv/">Abemaテレビ</a></li>
+                            <li><a style="color:#4dff4d"; href="https://open.spotify.com/browse">Spotify</a></li>
+                            <li><a href="http://www22.eyny.com/index.php">伊莉討論區</a></li>
+                            <li><a href="https://ani.gamer.com.tw/animeList.php">動畫瘋</a></li>
+                            <li><a href="http://www.360zhibo.com/">360 Football</a></li>
+                            <li><a href="https://zh.wikipedia.org/wiki/Portal:%E8%AE%A3%E9%97%BB">People Die</a></li>
+                            <li class="separators">-----shopping----</li>
+                             <li><a href="https://www.amazon.co.jp/">amazon.jp</a></li>
+                            <li><a href="https://www.amazon.com/?language=zh_TW">amazon</a></li>
+                            <li><a href="https://kakaku.com/">価格.com</a></li>
+                            <li><a href="https://www.rakuten.co.jp/">日樂天</a>/<a href="https://global.rakuten.com/zh-tw/">全球樂</a>/<a href="https://www.rakuten.com.tw/">台樂</a>
+                            </li>
+                            <li><a href="https://www.ruten.com.tw/">露拍</a>/<a href="https://tw.bid.yahoo.com/">Y拍</a></li>
+                            <li><a href="https://auctions.yahoo.co.jp/">ヤフオク</a></li>
+                            <li><a href="http://www.coolpc.com.tw/evaluate.php">原價屋</a>/<a href="https://www.coolpc.com.tw/m/">原價屋m</a></li>
+                        </ul>
+                    </div>
 
-    <ul class="block">
-        <li class="header">/r18</li>
-        <li><a href="https://www.pornhub.com/video/search?search=blowjob">pornhub/bj</a></li>
-        <li><a href="https://www.pornhub.com/video?o=ht">pornhub/hot</a></li>
-        <li><a href="https://www.xvideos.com/?k=blowjob">xvideo/bj</a></li>
-        <li><a href="https://www.xvideos.com/?k=taiwan">xvideo/taiwan</a></li>
-        <li><a href="https://www.xvideos.com/profiles/penpineapplepen123#_tabFavorites">xvideo/ppap</a></li>
-        <li><a href="http://www.dmm.co.jp/digital/videoa/-/list/=/sort=ranking/">DMM</a></li>
-        <li><a href="https://sukebei.nyaa.si/">nyaa</a></li>
-		
-	</ul>
 
-	<ul class="block">
-        <li class="header">/games</li>
-        <li><a href="https://ipeer.auron.co.uk/warframe/">warframe/tracker</a></li>
-        <li><a href="https://warframe.market/">warframe/market</li>
-        <li><a href="http://warframe-builder.com/">warframe/builder</li>
-        <li><a href="https://forum.gamer.com.tw/B.php?bsn=22797&subbsn=0">warframe@bahamut</a></li>
-        <li><a href="https://semlar.com/rivencalc">riven calc</a></li>
-        <li><a href="https://go.twitch.tv/">Twitch</a></li>
-        <li><a href="https://steamdb.info/sales/">Steam sales</a></li>
-        <li><a href="http://na.op.gg/champion/statistics">op.gg</a></li>
+ <div class="programming">
+                        <ul class="hyperlinks">
+                            <li id="programming-h">psy</li>
+                                                        <li class="separators">---psy--</li>
+                            <li><a href="http://www.atcp.org.tw/">臨心全聯會</a></li>
+                            <li><a href="http://taclip.org.tw/">台灣臨床心理學會</a></li>
+                            <li><a href="https://www.nytimes.com/topic/subject/psychology-and-psychologists">NY Times Psy</a></li>
+                            <li><a href="https://digest.bps.org.uk/">BPS Research Digest</a></li>
+                            <li><a href="https://qz.com/popular/">qz.com</a></li>
+                            <li><a href="http://www.spring.org.uk/">PsyBlog</a></li>
 
-    </ul>
+                    </div>
+ <div class="social">
+                        <ul class="hyperlinks">
+                            <li id="social-h">social</li>
+                            <li class="separators">-----porn----</li>
+                            <li><a href="https://www.pornhub.com/video/search?search=blowjob">pornhub/bj</a></li>
+                            <li><a href="https://www.pornhub.com/video?o=ht">pornhub/hot</a></li>
+                            <li><a href="https://www.xvideos.com/?k=blowjob">xvideo/bj</a></li>
+                            <li><a href="https://www.xvideos.com/?k=taiwan">xvideo/taiwan</a></li>
+                            <li><a href="https://www.xvideos.com/profiles/penpineapplepen123#_tabFavorites">xvideo/ppap</a></li>
+                            <li><a href="http://www.dmm.co.jp/digital/videoa/-/list/=/sort=ranking/">DMM</a></li>
+                            <li><a href="https://sukebei.nyaa.si/">nyaa</a></li>
+                            <li class="separators">-----subreddits----</li>        
+                            <li><a href="https://www.reddit.com/r/psychotherapy/">/psychotherapy</a></li>
+                            <li><a href="https://www.reddit.com/me/m/00psychology00/">/psychology</a></li>
+                            <li><a href="https://www.reddit.com/me/m/pc/">/pc</a></li>
+                            <li><a href="https://www.reddit.com/me/m/hackx/">/hackx</a></li>
+                            <li><a href="https://www.reddit.com/me/m/18/">/18</a></li>
+                        </ul>
+                    </div>
 
-    <ul class="block">
-        <li class="header">/政府機關</li>
-        <li><a href="http://web.pcc.gov.tw/tps/pss/tender.do?method=goSearch&searchMode=common&searchType=basic">檢索/pcc.gov</a></li>
-        <li><a href="http://web.pcc.gov.tw/tps/main/pss/pblm/tender/basic/search/mainListCommon.jsp">依單位/pcc.gov</a></li>
-        <li><a style="color:#383838"; href="http://www.chiayi.gov.tw/web/social/index.asp">嘉義市/社會處</a></li>
-        <li><a style="color:#383838"; href="https://www.cichb.gov.tw/news/">嘉義市/衛生局</li>
-        <li><a style="color:#383838"; href="http://sabcc.cyhg.gov.tw/">嘉義縣/社會局</li>
-        <li><a style="color:#383838"; href="http://cyshb.cyhg.gov.tw/">嘉義縣/衛生局</a></li>
-        <li><a style="color:#383838"; href="http://www4.yunlin.gov.tw/social/">雲林縣/社會處</a></li>
-        <li><a style="color:#383838"; href="http://www.ylshb.gov.tw/">雲林縣/衛生局</a></li>
-    </ul>
+                    <!-- <div class="music"> 
+                            <ul class="hyperlinks">
+                                <li id="music-h">music</li>
+                                <li><a href="">empty_link</a></li>
+                                <li><a href="">empty_link</a></li>
+                                <li><a href="">empty_link</a></li>
+                        </ul>
+                    </div>
+                    -->
 
-	<ul class="block">
-        <li class="header">/subreddits</li>
-        <li><a href="https://www.reddit.com/r/psychotherapy/">/psychotherapy</a></li>
-        <li><a href="https://www.reddit.com/me/m/00psychology00/">/psychology</a></li>
-        <li><a href="https://www.reddit.com/me/m/pc/">/pc</a></li>
-        <li><a href="https://www.reddit.com/me/m/hackx/">/hackx</a></li>
-        <li><a href="https://www.reddit.com/me/m/18/">/18</a></li>
+                    <!--                    
+                    <div class="media">
+                        <ul class="hyperlinks">
+                            <li id="media-h">media</li>
+                            <li><a href="https://unsplash.com/">unsplash</a></li>
+                            <li><a href="https://videos.pexels.com/">pexels_video</a></li>
+                        </ul>
+                    </div>
+                    -->
 
-    </ul>
-  </div>
-</div>
+                    <!--<div class="gaming">
+                        <ul class="hyperlinks">
+                            <li id="gaming-h">shopping</li>
+                           
+                        </ul>
+                    </div>
+                        -->
 
-    <script  src="js/index.js"></script>
+                </div><!-- inner -->
 
+                <!-- search with duckduckgo-->
+                <div id="search">
+                    <a class="unix-user">Search</a>
+                    <a class="unix-syntax1">@</a>
+                    <a class="PC-name">DuckDuckGo.com</a>
+                    <a class="unix-syntax2">&#126;</a>
+                    <form id="search-bar" method="get" action="http://duckduckgo.com/">
+                        <input type="text" name="q" placeholder="" autofocus />
+                    </form>
+                </div>
+
+            </div><!-- middle -->
+           
+           <!-- music stuff to add
+            <div class="music-embed">
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327432184&color=%23c75457&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            -->
+        </div>
+    </div><!-- outer -->
+    <script src="themes.js"></script>
 </body>
+
 </html>
