@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Noto+Sans+TC:wght@100&family=Noto+Serif+TC:wght@500&family=Roboto:wght@300&family=Titillium+Web&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Stardos+Stencil&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+<!-- 
+    font-family: 'Graduate', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'VT323', monospace;
+-->
+    <title>8bit</title>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="middle">
+
+            <div class="terminal-screen" id="inner">
+ 
+
+
+<p id="demonew" style="font-size:small; color:#0C0C0C; text-align: center;"></p>
+<p id="demo" style="font-family: 'VT323', monospace; font-size:60em; color:#91989F; text-align: center;"></p>
+
+<script>
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+if(dd<10) {
+  dd='0'+dd
+} 
+
+if(mm<10) {
+  mm='0'+mm
+} 
+
+today = mm+'/'+dd+'/'+yyyy;
+document.getElementById("demonew").innerHTML = today;
+var myVar=setInterval(function(){myTimer()},1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString('en-GB');
+}
+</script>
+                    
+                
+
+
+                <!-- search with duckduckgo-->
+    <!--  <pre style="font-family:'VT323', monospace; color:#91989F; font-size:12px; text-align: center;">
+      _             _             _             _    |  See No Evil +
+      c -.          { ".          c "}          c ".  |  Hear No Evil +
+  \_   / \   +  \_   /\\   +  \_   / \/  =  \_   / \^  |  Speak No Evil =
+     \_| ||        \_|  |        \_|  |        \_| ||   |  One Bored Monkey
+
+
+    </pre> -->
+      <pre style="font-family:'VT323', monospace; color:#91989F; font-size:6em; text-align: center;">
+|      |\      _,,,---,,_            |
+|ZZZzz /,`.-'`'    -.  ;-;;,_        |
+|     |,4-  ) )-,_. ,\ (  `'-'       |
+|    '---''(_/--'  `-'\_)            |
+
+
+    </pre> 
+            </div><!-- middle -->
+                       </div>
+           
+           <!-- music stuff to add
+            <div class="music-embed">
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327432184&color=%23c75457&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            -->
+        </div>
+    </div><!-- outer -->
+    <script src="themes.js"></script>
+</body>
+
+</html>
